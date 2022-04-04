@@ -1,0 +1,16 @@
+.header {
+    margin: 0px 20px 20px;
+    padding-left: 20px;
+    background: #0dcaf0;
+    display: flow-root;
+}
+
+.header-title {
+    font-style: normal;
+    color: white;
+    float: left;
+}
+
+.header-title h2 {
+    padding: 10px;
+}
