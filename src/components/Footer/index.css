@@ -1,0 +1,20 @@
+.footer {
+    float: bottom;
+    margin: 50px 20px 20px;
+    padding-left: 20px;
+    background: #0dcaf0;
+}
+
+.footer p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.github-icon {
+    margin: 30px 5px 20px 5px;
+    width: 40px;
+    height: 40px;
+}
