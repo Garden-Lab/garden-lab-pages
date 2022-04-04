@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
-import Abort from "./pages/About";
+import About from "./pages/About";
 import NotFound from "./pages/Errors/NotFound";
 import Footer from "./components/Footer";
 
@@ -20,7 +20,7 @@ function App() {
                 <Routes>
                     <Route path="/home" element={<Home/>}></Route>
                     <Route path="/blog/*" element={<Blog/>}></Route>
-                    <Route path="/abort" element={<Abort/>}></Route>
+                    <Route path="/about" element={<About/>}></Route>
                     <Route path="*" element={<NotFound/>}></Route>
                 </Routes>
                 <Footer/>
