@@ -2,16 +2,12 @@ import React, {useEffect} from "react";
 import './index.css';
 import {useNavigate} from "react-router-dom";
 
-const MenuButton = ({name,}) => {
+const MenuButton = ({name}) => {
     let navigator = useNavigate();
-
-    const movePage = () => {
-        navigator(name);
-    };
 
     useEffect(() => {
         document.getElementById(name)
-            .onclick = movePage;
+            .onclick = () => navigator(name);
     }, []);
 
     return (
