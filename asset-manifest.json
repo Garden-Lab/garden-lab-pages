@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/garden-lab-pages/static/css/main.16d595b5.css",
-    "main.js": "/garden-lab-pages/static/js/main.ff144f23.js",
+    "main.js": "/garden-lab-pages/static/js/main.a01dd1b3.js",
     "static/js/787.c7a045b0.chunk.js": "/garden-lab-pages/static/js/787.c7a045b0.chunk.js",
     "index.html": "/garden-lab-pages/index.html",
     "main.16d595b5.css.map": "/garden-lab-pages/static/css/main.16d595b5.css.map",
-    "main.ff144f23.js.map": "/garden-lab-pages/static/js/main.ff144f23.js.map",
+    "main.a01dd1b3.js.map": "/garden-lab-pages/static/js/main.a01dd1b3.js.map",
     "787.c7a045b0.chunk.js.map": "/garden-lab-pages/static/js/787.c7a045b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16d595b5.css",
-    "static/js/main.ff144f23.js"
+    "static/js/main.a01dd1b3.js"
   ]
 }
