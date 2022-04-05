@@ -3,10 +3,10 @@ import './index.css';
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer page">
             <div className="social-link-list">
                 <a href="https://github.com/Garden-Lab" target="_blank">
-                    <img className="github-icon" src={process.env.PUBLIC_URL + '/github_64.png'}/>
+                    <img className="github-icon" src={process.env.PUBLIC_URL + '/github_64.png'} alt="github"/>
                 </a>
             </div>
             <p>Copyright ⓒ 2022. Garden Lab all rights reserved</p>

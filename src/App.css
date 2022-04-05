@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'd2coding';
 }
 
 .App-logo {
@@ -35,4 +36,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.page{
+  background-color: #e2e2e2;
 }
