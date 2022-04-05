@@ -1,10 +1,11 @@
 import React from "react";
+import PageHeading from "../../components/PageHeading";
 
 
 const Home = () => {
     return (
         <>
-            <h2> Home Page</h2>
+            <PageHeading heading="Home Page" subHeading="블로그 페이지 제작중.."/>
         </>
     )
 };

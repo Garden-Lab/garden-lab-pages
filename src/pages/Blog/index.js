@@ -1,11 +1,10 @@
 import React from "react";
-import {Link} from "react-router-dom";
-
+import PageHeading from "../../components/PageHeading";
 
 const Blog = () => {
     return (
         <>
-            <h2> Blog Page</h2>
+            <PageHeading heading="Blog Page" subHeading="블로그 페이지 제작중.."/>
         </>
     )
 };
