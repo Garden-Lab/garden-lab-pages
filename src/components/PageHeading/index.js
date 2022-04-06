@@ -12,7 +12,7 @@ const PageHeading = ({heading, subHeading}) => {
     }, [subHeading]);
 
     return (
-        <div>
+        <div className="heading">
             <p className="page-heading">
                 {heading}
             </p>
