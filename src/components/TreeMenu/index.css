@@ -1,0 +1,31 @@
+.tree-menu {
+    text-align: left !important;
+}
+
+.tree-menu-sub {
+    visibility: hidden;
+}
+
+.tree-status-arrow {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    cursor: pointer;
+}
+
+.tree-label {
+    font-size: 1.3em;
+    margin-right: 5px;
+}
+
+.down {
+    margin: 8px 10px 10px 10px;
+    transform: rotate(135deg); /* 각도 */
+}
+
+.up {
+    margin: 12px 10px 10px 10px;
+    transform: rotate(-45deg); /* 각도 */
+}
